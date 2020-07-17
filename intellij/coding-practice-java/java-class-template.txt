@@ -1,0 +1,17 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+
+/**
+ * TODO<a href=></a>
+ *
+ * <p>TODO Runtime: O()
+ *
+ * <p>TODO Extra memory: O()
+ *
+ * <p>TODO Key:
+ *
+ * @author <a href=https://wilmol.com>Will Molloy</a>
+ */
+class ${NAME} {
+}
+
