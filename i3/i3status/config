@@ -58,8 +58,8 @@ ethernet _first_ {
 
 battery all {
         # format = "%status %percentage %remaining %emptytime"
-        format = " %status %percentage %emptytime "
-        format_down = "No battery"
+        format = " %status %percentage %remaining "
+        format_down = " no battery "
         last_full_capacity = true
         integer_battery_capacity = true
         # status_chr = ""
@@ -84,5 +84,5 @@ memory {
 tztime local {
         # format = "%Y-%m-%d %H:%M:%S"
         # format = " %d.%m. %H:%M "
-	format = " %a %d %b, %H:%M " 
+	format = " %a %d %b, %H:%M:%S " 
 }
